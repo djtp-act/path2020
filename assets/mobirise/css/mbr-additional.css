@@ -742,6 +742,99 @@ section.lazy-placeholder:after {
 .cid-rXXl8oTrQx .typed-text {
   color: #ffffff;
 }
+.cid-rY3DnNKwbG {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #f9f9f9;
+}
+.cid-rY3DnNKwbG .title__wrap {
+  margin-bottom: 30px;
+}
+.cid-rY3DnNKwbG .title__block {
+  margin-bottom: 10px;
+}
+.cid-rY3DnNKwbG .mbr-section-title {
+  margin-bottom: 0;
+  color: #3053be;
+}
+.cid-rY3DnNKwbG .mbr-section-subtitle {
+  opacity: .8;
+  margin-bottom: 15px;
+}
+.cid-rY3DnNKwbG .buttons {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.cid-rY3DnNKwbG .mbr-section-btn .btn-secondary-outline {
+  padding: 3px 0;
+  color: #17161a !important;
+  margin-bottom: 10px;
+  border: none !important;
+  background-color: transparent !important;
+}
+.cid-rY3DnNKwbG .mbr-section-btn .btn-secondary-outline:hover {
+  color: #3053be !important;
+}
+.cid-rY3DnNKwbG .wrap {
+  margin: 0;
+  padding: 25px 0;
+  border-top: 1px solid rgba(25, 31, 35, 0.4);
+}
+.cid-rY3DnNKwbG .wrap:last-child {
+  border-bottom: 1px solid rgba(25, 31, 35, 0.4);
+}
+.cid-rY3DnNKwbG .plpr_0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.cid-rY3DnNKwbG .nav-tabs .nav-item.open .nav-link:focus,
+.cid-rY3DnNKwbG .nav-tabs .nav-link.active:focus {
+  outline: none;
+}
+.cid-rY3DnNKwbG .nav-tabs {
+  flex-wrap: wrap;
+  border-bottom: none;
+  margin-bottom: 30px;
+}
+@media (max-width: 575px) {
+  .cid-rY3DnNKwbG .nav-tabs {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+.cid-rY3DnNKwbG .nav-tabs .nav-link {
+  color: #17161a;
+  font-style: normal;
+  font-weight: 700;
+  border: none;
+  border-bottom: 2px solid transparent;
+  transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
+  margin-right: 25px;
+  padding: 12px 0 !important;
+}
+.cid-rY3DnNKwbG .nav-tabs .nav-link:hover {
+  cursor: pointer;
+}
+.cid-rY3DnNKwbG .nav-tabs .nav-link.active {
+  font-weight: 700;
+  font-style: normal;
+  background-color: transparent !important;
+  border-bottom: 2px solid #199bfc;
+}
+.cid-rY3DnNKwbG .nav-tabs .nav-link.active:hover {
+  background-color: #199bfc;
+}
+@media (max-width: 991px) {
+  .cid-rY3DnNKwbG .align-right {
+    text-align: left !important;
+  }
+}
+@media (max-width: 575px) {
+  .cid-rY3DnNKwbG .buttons {
+    justify-content: flex-start;
+  }
+}
 .cid-rXXNt9mxYA {
   padding-top: 180px;
   padding-bottom: 225px;
