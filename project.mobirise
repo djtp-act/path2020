@@ -484,6 +484,74 @@
           "_params": {}
         },
         {
+          "_name": "content1",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#232323"
+            },
+            ".mbr-text": {
+              "text-align": "center"
+            },
+            ".mbr-text P": {
+              "text-align": "center"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f3f1d8\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 col-lg-10 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p>© 2020 家廟跳點-家計畫.<br><span style=\"font-size: 0.8rem;\">除另有註明，網站之內容皆採用<br></span><span style=\"font-size: 0.8rem;\">創用CC<a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW\" target=\"_blank\">&nbsp;</a></span><a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW\" style=\"font-size: 0.8rem; background-color: rgb(243, 241, 216);\" target=\"_blank\">姓名標示─相同方式分享 4.0 國際</a><span style=\"font-size: 0.8rem;\">&nbsp;</span><span style=\"font-size: 0.8rem;\">授權條款</span></p><p></p></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-l",
+          "_isUserblock": true,
+          "_sourceTheme": "storem4",
+          "_cid": "rXY15F498c",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            ".google-map": {
+              "height": "34rem",
+              "position": "relative",
+              "iframe": {
+                "height": "100%",
+                "width": "100%"
+              },
+              "[data-state-details]": {
+                "color": "#6b6763",
+                "font-family": "Montserrat",
+                "height": "1.5em",
+                "margin-top": "-0.75em",
+                "padding-left": "1.25rem",
+                "padding-right": "1.25rem",
+                "position": "absolute",
+                "text-align": "center",
+                "top": "50%",
+                "width": "100%"
+              },
+              "&[data-state]": {
+                "background": "#e9e5dc"
+              },
+              "&[data-state=\"loading\"]": {
+                "[data-state-details]": {
+                  "display": "none"
+                },
+                "&::after": {}
+              }
+            }
+          },
+          "_name": "map01",
+          "_customHTML": "<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"ChIJVT1STWJ2bjQRHVMYSCEOvj0\" value=\"700台南市中西區永福路二段152巷20號\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
+          "_cid": "rY3svuOsP5",
+          "_anchor": "map01-o",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "_name": "footer1",
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
@@ -578,74 +646,6 @@
           "_cid": "rY3sti6oBi",
           "_protectedParams": [],
           "_global": true,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_name": "content1",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text, blockquote": {
-              "color": "#232323"
-            },
-            ".mbr-text": {
-              "text-align": "center"
-            },
-            ".mbr-text P": {
-              "text-align": "center"
-            }
-          },
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f3f1d8\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 col-lg-10 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p>© 2020 家廟跳點-家計畫.<br><span style=\"font-size: 0.8rem;\">除另有註明，網站之內容皆採用<br></span><span style=\"font-size: 0.8rem;\">創用CC<a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW\" target=\"_blank\">&nbsp;</a></span><a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW\" style=\"font-size: 0.8rem; background-color: rgb(243, 241, 216);\" target=\"_blank\">姓名標示─相同方式分享 4.0 國際</a><span style=\"font-size: 0.8rem;\">&nbsp;</span><span style=\"font-size: 0.8rem;\">授權條款</span></p><p></p></div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content1-l",
-          "_isUserblock": true,
-          "_sourceTheme": "storem4",
-          "_cid": "rXY15F498c",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".google-map": {
-              "height": "34rem",
-              "position": "relative",
-              "iframe": {
-                "height": "100%",
-                "width": "100%"
-              },
-              "[data-state-details]": {
-                "color": "#6b6763",
-                "font-family": "Montserrat",
-                "height": "1.5em",
-                "margin-top": "-0.75em",
-                "padding-left": "1.25rem",
-                "padding-right": "1.25rem",
-                "position": "absolute",
-                "text-align": "center",
-                "top": "50%",
-                "width": "100%"
-              },
-              "&[data-state]": {
-                "background": "#e9e5dc"
-              },
-              "&[data-state=\"loading\"]": {
-                "[data-state-details]": {
-                  "display": "none"
-                },
-                "&::after": {}
-              }
-            }
-          },
-          "_name": "map01",
-          "_customHTML": "<section class=\"map1\" group=\"Maps\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"ChIJVT1STWJ2bjQRHVMYSCEOvj0\" value=\"700台南市中西區永福路二段152巷20號\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"google-map\" mbr-map=\"googleMap\">\n    </div>\n</section>",
-          "_cid": "rY3svuOsP5",
-          "_anchor": "map01-o",
-          "_protectedParams": [],
-          "_global": false,
           "_once": false,
           "_params": {}
         },

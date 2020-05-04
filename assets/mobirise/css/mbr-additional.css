@@ -905,6 +905,47 @@ section.lazy-placeholder:after {
   padding-bottom: 0px;
   background-color: #f3f1d8;
 }
+.cid-rXY15F498c {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #f3f1d8;
+}
+.cid-rXY15F498c .mbr-text,
+.cid-rXY15F498c blockquote {
+  color: #232323;
+}
+.cid-rXY15F498c .mbr-text {
+  text-align: center;
+}
+.cid-rXY15F498c .mbr-text P {
+  text-align: center;
+}
+.cid-rY3svuOsP5 .google-map {
+  height: 34rem;
+  position: relative;
+}
+.cid-rY3svuOsP5 .google-map iframe {
+  height: 100%;
+  width: 100%;
+}
+.cid-rY3svuOsP5 .google-map [data-state-details] {
+  color: #6b6763;
+  font-family: Montserrat;
+  height: 1.5em;
+  margin-top: -0.75em;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.cid-rY3svuOsP5 .google-map[data-state] {
+  background: #e9e5dc;
+}
+.cid-rY3svuOsP5 .google-map[data-state="loading"] [data-state-details] {
+  display: none;
+}
 .cid-rY3sti6oBi {
   padding-top: 3rem;
   padding-bottom: 1rem;
@@ -982,47 +1023,6 @@ section.lazy-placeholder:after {
 }
 .cid-rY3sti6oBi .work__adress {
   color: #232323;
-}
-.cid-rXY15F498c {
-  padding-top: 30px;
-  padding-bottom: 15px;
-  background-color: #f3f1d8;
-}
-.cid-rXY15F498c .mbr-text,
-.cid-rXY15F498c blockquote {
-  color: #232323;
-}
-.cid-rXY15F498c .mbr-text {
-  text-align: center;
-}
-.cid-rXY15F498c .mbr-text P {
-  text-align: center;
-}
-.cid-rY3svuOsP5 .google-map {
-  height: 34rem;
-  position: relative;
-}
-.cid-rY3svuOsP5 .google-map iframe {
-  height: 100%;
-  width: 100%;
-}
-.cid-rY3svuOsP5 .google-map [data-state-details] {
-  color: #6b6763;
-  font-family: Montserrat;
-  height: 1.5em;
-  margin-top: -0.75em;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  width: 100%;
-}
-.cid-rY3svuOsP5 .google-map[data-state] {
-  background: #e9e5dc;
-}
-.cid-rY3svuOsP5 .google-map[data-state="loading"] [data-state-details] {
-  display: none;
 }
 .cid-rwtBZ2A7qZ .navbar {
   padding: .5rem 0;
