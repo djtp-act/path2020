@@ -905,21 +905,6 @@ section.lazy-placeholder:after {
   padding-bottom: 0px;
   background-color: #f3f1d8;
 }
-.cid-rXY15F498c {
-  padding-top: 30px;
-  padding-bottom: 15px;
-  background-color: #f3f1d8;
-}
-.cid-rXY15F498c .mbr-text,
-.cid-rXY15F498c blockquote {
-  color: #232323;
-}
-.cid-rXY15F498c .mbr-text {
-  text-align: center;
-}
-.cid-rXY15F498c .mbr-text P {
-  text-align: center;
-}
 .cid-rY3svuOsP5 .google-map {
   height: 34rem;
   position: relative;
@@ -1023,6 +1008,14 @@ section.lazy-placeholder:after {
 }
 .cid-rY3sti6oBi .work__adress {
   color: #232323;
+}
+.cid-rY49l5Nxxg {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f3f1d8;
+}
+.cid-rY49l5Nxxg H1 {
+  text-align: center;
 }
 .cid-rwtBZ2A7qZ .navbar {
   padding: .5rem 0;
