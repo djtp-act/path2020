@@ -755,7 +755,7 @@ section.lazy-placeholder:after {
 }
 .cid-rY3DnNKwbG .mbr-section-title {
   margin-bottom: 0;
-  color: #3053be;
+  color: #7af790;
 }
 .cid-rY3DnNKwbG .mbr-section-subtitle {
   opacity: .8;
@@ -820,10 +820,10 @@ section.lazy-placeholder:after {
   font-weight: 700;
   font-style: normal;
   background-color: transparent !important;
-  border-bottom: 2px solid #199bfc;
+  border-bottom: 2px solid #3053be;
 }
 .cid-rY3DnNKwbG .nav-tabs .nav-link.active:hover {
-  background-color: #199bfc;
+  background-color: #3053be;
 }
 @media (max-width: 991px) {
   .cid-rY3DnNKwbG .align-right {
