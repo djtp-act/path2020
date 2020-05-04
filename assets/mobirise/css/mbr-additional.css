@@ -984,7 +984,7 @@ section.lazy-placeholder:after {
   color: #232323;
 }
 .cid-rXY15F498c {
-  padding-top: 15px;
+  padding-top: 30px;
   padding-bottom: 15px;
   background-color: #f3f1d8;
 }
@@ -993,6 +993,9 @@ section.lazy-placeholder:after {
   color: #232323;
 }
 .cid-rXY15F498c .mbr-text {
+  text-align: center;
+}
+.cid-rXY15F498c .mbr-text P {
   text-align: center;
 }
 .cid-rY3svuOsP5 .google-map {
