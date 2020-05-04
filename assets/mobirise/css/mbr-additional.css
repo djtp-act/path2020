@@ -651,7 +651,7 @@ section.lazy-placeholder:after {
   opacity: 0.5;
 }
 .cid-rv2OpzNlIB {
-  background-image: url("../../../assets/images/img-6762-2000x933.png");
+  background-image: url("../../../assets/images/img-6778-2000x933.png");
 }
 .cid-rv2OpzNlIB H1 {
   color: #ffffff;
@@ -933,6 +933,10 @@ section.lazy-placeholder:after {
 .cid-rXXYbbaRb9 .mbr-list,
 .cid-rXXYbbaRb9 .social-list mbr-list {
   color: #ffffff;
+}
+.cid-rXXYbbaRb9 .social-list,
+.cid-rXXYbbaRb9 .mbr-list UL {
+  text-align: left;
 }
 .cid-rXY15F498c {
   padding-top: 60px;
