@@ -80,7 +80,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 28,
+    "uniqCompNum": 29,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png"
   },
@@ -336,6 +336,46 @@
           "_isUserblock": true,
           "_sourceTheme": "conferencem4",
           "_cid": "rY3DnNKwbG",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-btn": {
+              "margin-top": "1.8rem"
+            },
+            ".mbr-text": {
+              "color": "#879a9f"
+            },
+            "@media (min-width: 922px)": {
+              ".card-wrapper": {
+                "padding": "0 1rem"
+              }
+            },
+            ".card-title": {
+              "color": "#232323"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#232323"
+            }
+          },
+          "_name": "content01",
+          "_customHTML": "<section class=\"content1\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/img-6761-2000x933.png\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#f3f1d8\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\" mbr-cards=\"bootstrap\">\n            <div class=\"card col-12 col-md-6\">\n                <div class=\"card-wrapper\">\n\n\n                    <h4 class=\"card-title align-right mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>家廟的模樣</b></h4>\n\n\n                </div>\n            </div>\n\n            <div class=\"card col-12 col-md-6\">\n                <div class=\"card-wrapper\">\n\n                    <div class=\"card-box\">\n\n                        <p class=\"mbr-text pt-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b><i>\n                            想像是一座堆疊\n                        </i></b></p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mobirise.co\" class=\"btn btn-primary-outline\" data-app-placeholder=\"Type Text\">\n                            VIEW MORE</a></div>\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_anchor": "content01-s",
+          "_isUserblock": true,
+          "_sourceTheme": "personam4",
+          "_cid": "rY4bpOPv7C",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
