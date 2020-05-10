@@ -668,100 +668,6 @@ section.lazy-placeholder:after {
 .cid-rXXA5moDp5 .mbr-text {
   color: #f9f295;
 }
-.cid-rYCkhxEOcQ {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  background-color: #f9f9f9;
-}
-.cid-rYCkhxEOcQ .title__block {
-  margin-bottom: 40px;
-}
-.cid-rYCkhxEOcQ .carousel-item {
-  justify-content: center;
-  -webkit-justify-content: center;
-}
-.cid-rYCkhxEOcQ .carousel-item.active,
-.cid-rYCkhxEOcQ .carousel-item-next,
-.cid-rYCkhxEOcQ .carousel-item-prev {
-  display: flex;
-}
-.cid-rYCkhxEOcQ .carousel-control-prev {
-  left: -8%;
-  justify-content: flex-start !important;
-  width: 10%;
-}
-.cid-rYCkhxEOcQ .carousel-control-next {
-  justify-content: flex-end !important;
-  right: -8%;
-  width: 10%;
-}
-.cid-rYCkhxEOcQ .carousel-controls a span {
-  width: 56px;
-  height: 56px;
-  line-height: 36px;
-  font-size: 18px;
-  position: absolute;
-  padding: 10px;
-  border-radius: 50%;
-  color: #ffffff;
-  background: rgba(25, 155, 252, 0.3);
-  transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
-}
-.cid-rYCkhxEOcQ .carousel-controls a:hover span {
-  background: rgba(25, 155, 252, 0.6);
-}
-.cid-rYCkhxEOcQ .user_image {
-  display: flex;
-  width: 100%;
-  height: 540px;
-  margin: auto;
-  perspective: 900px;
-}
-.cid-rYCkhxEOcQ .user_image img {
-  transition: transform .5s;
-  width: 100%;
-  height: 95%;
-  object-fit: cover;
-  border-radius: 6px;
-}
-.cid-rYCkhxEOcQ .user_image img:hover {
-  transform: rotateX(-3deg);
-}
-@media (max-width: 1350px) {
-  .cid-rYCkhxEOcQ .user {
-    max-width: 87%;
-  }
-  .cid-rYCkhxEOcQ .carousel-control-prev {
-    justify-content: center !important;
-    left: -3%;
-  }
-  .cid-rYCkhxEOcQ .carousel-control-next {
-    justify-content: center !important;
-    right: -3%;
-  }
-}
-@media (max-width: 991px) {
-  .cid-rYCkhxEOcQ .user {
-    max-width: 100%;
-  }
-  .cid-rYCkhxEOcQ .carousel-control-prev {
-    left: -5%;
-  }
-  .cid-rYCkhxEOcQ .carousel-control-next {
-    right: -5%;
-  }
-  .cid-rYCkhxEOcQ .user_image {
-    height: auto;
-  }
-}
-@media (max-width: 767px) {
-  .cid-rYCkhxEOcQ .title__block {
-    margin-bottom: 20px;
-  }
-  .cid-rYCkhxEOcQ .carousel-controls {
-    display: none;
-  }
-}
 .cid-rXXl8oTrQx {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -2212,6 +2118,9 @@ section.lazy-placeholder:after {
 }
 .cid-rYCj6j8vbo .title__block {
   margin-bottom: 30px;
+}
+.cid-rYCj6j8vbo .mbr-section-title {
+  margin-bottom: 20px;
 }
 .cid-rYCj6j8vbo .mbr-section-subtitle,
 .cid-rYCj6j8vbo .card__subtitle {
