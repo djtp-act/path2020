@@ -1595,69 +1595,6 @@ section.lazy-placeholder:after {
   height: 675px;
   background-image: url("../../../assets/images/event-2-2000x1110.jpeg");
 }
-.cid-rYIygS3wLK {
-  padding-top: 45px;
-  padding-bottom: 45px;
-  background-color: #ffffff;
-}
-.cid-rYIygS3wLK .card-box {
-  padding: 0rem;
-}
-.cid-rYIygS3wLK .mbr-section-btn {
-  margin-top: 1.8rem;
-}
-.cid-rYIygS3wLK h4 {
-  margin-bottom: 0;
-  padding-top: 0rem;
-}
-.cid-rYIygS3wLK h5 {
-  margin-bottom: 0;
-  padding-top: 2rem;
-}
-.cid-rYIygS3wLK p {
-  margin-bottom: 0;
-  padding-top: 1.2rem;
-}
-.cid-rYIygS3wLK .card-wrapper {
-  height: 100%;
-  padding-bottom: 1rem;
-}
-.cid-rYIygS3wLK .mbr-text {
-  color: #879a9f;
-}
-.cid-rYIygS3wLK .card-img {
-  height: 400px;
-  position: relative;
-}
-.cid-rYIygS3wLK .card-img img {
-  height: 100%;
-  object-fit: cover;
-  z-index: 2;
-  position: relative;
-}
-.cid-rYIygS3wLK .card-img:after {
-  content: '';
-  position: absolute;
-  border-radius: 100%;
-  z-index: 1;
-  bottom: 5px;
-  left: 50%;
-  right: 50%;
-  transform: translate(-50%, -50%);
-  width: 70%;
-  height: 40px;
-  box-shadow: 0 35px 30px 0 rgba(0, 0, 0, 0.35);
-}
-.cid-rYIygS3wLK .card-subtitle {
-  color: #9c969b;
-}
-.cid-rYIygS3wLK .mbr-text,
-.cid-rYIygS3wLK .mbr-section-btn {
-  color: #232323;
-}
-.cid-rYIygS3wLK .card-title {
-  color: #232323;
-}
 .cid-rY3sti6oBi {
   padding-top: 3rem;
   padding-bottom: 1rem;
