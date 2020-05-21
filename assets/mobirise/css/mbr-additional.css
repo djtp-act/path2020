@@ -739,67 +739,6 @@ section.lazy-placeholder:after {
 .cid-rXXl8oTrQx .typed-text {
   color: #ffffff;
 }
-.cid-rYtMU5haCr {
-  background-image: url("../../../assets/images/ssasa2-1-2000x605.png");
-}
-.cid-rYtMU5haCr .mbr-section-title,
-.cid-rYtMU5haCr .mbr-section-subtitle {
-  color: #000000;
-}
-.cid-rYtMU5haCr .mbr-section-text {
-  color: #232323;
-}
-.cid-rYtMU5haCr .mbr-text,
-.cid-rYtMU5haCr .typed-text,
-.cid-rYtMU5haCr .mbr-section-text {
-  letter-spacing: 0.03rem;
-}
-.cid-rYtMU5haCr .btn {
-  margin-left: 4px !important;
-}
-.cid-rYtMU5haCr .animated-element {
-  color: #fe525b;
-}
-.cid-rYtMU5haCr .typed-cursor {
-  opacity: 1;
-  -webkit-animation: blink 0.7s infinite;
-  -moz-animation: blink 0.7s infinite;
-  animation: blink 0.7s infinite;
-  color: #fe525b;
-}
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-moz-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .cid-rZEUE7xdZ3 .modal-body .close {
   background: #1b1b1b;
 }
