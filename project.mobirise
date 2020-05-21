@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page3.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "personam4",
       "title": "PersonaM4",
@@ -69,7 +69,7 @@
       }
     ],
     "imageResize": true,
-    "favicon": "@PROJECT_PATH@/assets/images/02-128x65.png",
+    "favicon": "@PROJECT_PATH@/assets/images/2path2020logo-03-128x38.png",
     "cssOptimize": false,
     "lazyLoad": false,
     "lazyType": "nothing",
