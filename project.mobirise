@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "personam4",
       "title": "PersonaM4",
@@ -80,7 +80,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 128,
+    "uniqCompNum": 133,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png"
   },
@@ -2245,137 +2245,11 @@
               "color": "#232323"
             }
           },
-          "_customHTML": "<section class=\"content7\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Left/Right Content\" name=\"reverse\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#191f23\" condition=\"showSubtitle || (cardCount > 0)\">\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Show Card Subtitle\" name=\"showCardSubtitle\" condition=\"cardCount > 0\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Card Title\" name=\"showCardTitle\" condition=\"cardCount > 0\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Card Text\" name=\"showText\" condition=\"cardCount > 0\" checked=\"\">\n        <input type=\"range\" inline title=\"Card Count\" name=\"cardCount\" min=\"0\" max=\"6\" step=\"1\" value=\"4\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/conference28-1920.jpg\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverse}\">\n            <div class=\"title__block\" mbr-class=\"{'col-lg-12' : cardCount < 1, 'col-lg-5' : cardCount > 0}\">\n                <h3 class=\"mbr-section-subtitle mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><b>家刺繡-<br>縫一幅圖景入門篇、進步篇</b></h3>\n                 <div class=\"divider\" mbr-if=\"showSubtitle\"></div>\n                <h2 class=\"mbr-section-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .mbr-section-btn\"><div>由府城刺繡宗師，人稱「阿泉師」的林玉泉所帶領的兩堂工坊，從刺繡的基本知識到完成一幅作品。</div><div><br></div><div>「光彩繡庄」位於台南市區永福路上，鄰近台南市的第一條街「民權路」，民權路聚集了眾多販賣紡織布綢的生意店家。藉由縫製人間符碼更甚於縫製給神仙的圖騰，一針一線的在眾神之都台南，堆疊出厚實的經驗。「縫製」象徵一種家常，除了加強在地串連力道，更讓「縫製」與「家」的含意更為融合。連續兩天的工坊課程，除了刺繡之外，更連結吳萬春香鋪的製香課，藉由兩種不同產業的碰撞，能帶給你怎樣的火花呢？</div><br><div>府城光彩映縷門：<a href=\"https://www.facebook.com/illuminate/\">https://www.facebook.com/illuminate/</a></div><div><br></div>• 這堂活動要說要教：繡布小故事、如何開始繡一塊布<br>（線材介紹、刺繡基本運用）<div><span style=\"color: inherit; font-size: 0.9rem;\">• 這堂課可以得到：刺繡基礎技法、一塊從自己設計的「家的圖景」到繡製完成的作品。</span><br></div><div><br></div><div>註：</div><div>1.可以繡自己設計的關於家的圖，或者如果沒有想法的話也可以繡我們準備的圖案喔！</div><div>2.若一起報名6/25家香味的課，則可以完成一顆家香味的繡香包唷！</div><br><br><div>• 課堂前創作須知：(如果您想繡自己設計的家的圖景，請留意這則須知)</div><div><span style=\"color: inherit; font-size: 0.9rem;\">1.創作尺寸 105  x 148mm（Ａ6 ）</span><br></div><div><span style=\"color: inherit; font-size: 0.9rem;\">2.於報名完成收到繳費通知後，開始構思自己的圖樣，於課程開始前先提供一個草稿\b並且與林玉泉師傅討論繡製的內容。</span><br></div><div><span style=\"color: inherit; font-size: 0.9rem;\">草稿尺寸：105  x 148 mm （Ａ6 ）</span><br></div><div>草稿內容：可以是字'房子‘人物’花卉等。</div><br><div>• 需要帶什麼東西或工具？</div><div><span style=\"color: inherit; font-size: 0.9rem;\">1.隨工作坊備有材料包，內容包含：綉花圈x1、針線一組、小剪刀</span><br></div><div><span style=\"color: inherit; font-size: 0.9rem;\">2.已經構思好的圖案以及自己習慣的工具！</span><br></div><div><br></div><div><div><br></div><div>• 參與對象：社區居民、一般民眾</div><div>• <span style=\"color: inherit; font-size: 0.9rem;\">活動材料無需自備，但若有自己習慣用的工具也可攜帶。</span></div><div>• 這堂課與吳萬春香行帶領的課為姊妹課，如兩堂課都報名，將可完成一個繡香包作品。</div><div>• 課程費用 :150元(含一份材料包)</div><br><div><br></div><div><br></div><div><br></div></div></h2>\n                     <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" mbr-buttons data-toolbar=\"-mbrBtnMove,-mbrBtnRemove,-mbrBtnAdd\" mbr-theme-style=\"display-4\"><a class=\"btn btn-secondary-outline\" href=\"https://www.surveycake.com/s/R76pb\" data-app-placeholder=\"Type Text\" target=\"_blank\">線上報名</a></div>\n            </div>\n                    \n             <div class=\"col-lg-1 d-none d-lg-block\" mbr-if=\"cardCount > 0\"></div>\n            <div class=\"col-lg-6\" mbr-if=\"cardCount > 0\">\n                <div class=\"wrap\">\n                    <div class=\"row\" mbr-list mbr-list-grow=\"cardCount\">\n                        <div class=\"col-md-6 card__wrap\">\n                            <p class=\"card__subtitle mbr-semibold mbr-fonts-style\" mbr-if=\"showCardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".card__subtitle\"></p>\n                            <div class=\"divider\" mbr-if=\"showCardSubtitle\"></div>\n                            <h4 class=\"card__title mbr-bold mbr-fonts-style\" mbr-if=\"showCardTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card__title\">地點</h4>\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">陳德聚堂<br>（ 700台南市中西區永福路二段152巷20號）<br><br></p>\n                        </div>\n                        <div class=\"col-md-6 card__wrap\">\n                            <p class=\"card__subtitle mbr-semibold mbr-fonts-style\" mbr-if=\"showCardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".card__subtitle\"></p>\n                            <div class=\"divider\" mbr-if=\"showCardSubtitle\"></div>\n                            <h4 class=\"card__title mbr-bold mbr-fonts-style\" mbr-if=\"showCardTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card__title\">日期時間</h4>\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">6月6 (六) - 6月7 (日)&nbsp;<br>14:00 pm – 17:00 pm</p>\n                        </div>\n                        <div class=\"col-md-6 card__wrap\">\n                            <p class=\"card__subtitle mbr-semibold mbr-fonts-style\" mbr-if=\"showCardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".card__subtitle\"></p>\n                            <div class=\"divider\" mbr-if=\"showCardSubtitle\"></div>\n                            <h4 class=\"card__title mbr-bold mbr-fonts-style\" mbr-if=\"showCardTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card__title\">參加方式</h4>\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">名額12人上限，請先線上報名登記。<br><br></p>\n                        </div>\n                        <div class=\"col-md-6 card__wrap\">\n                            <p class=\"card__subtitle mbr-semibold mbr-fonts-style\" mbr-if=\"showCardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".card__subtitle\"></p>\n                            <div class=\"divider\" mbr-if=\"showCardSubtitle\"></div>\n                            <h4 class=\"card__title mbr-bold mbr-fonts-style\" mbr-if=\"showCardTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card__title\">講師</h4>\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">光彩繡莊 &nbsp;林玉泉</p>\n                        </div>\n                    </div>\n                </div>\n            \n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content7\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Left/Right Content\" name=\"reverse\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#191f23\" condition=\"showSubtitle || (cardCount > 0)\">\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Show Card Subtitle\" name=\"showCardSubtitle\" condition=\"cardCount > 0\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Card Title\" name=\"showCardTitle\" condition=\"cardCount > 0\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Card Text\" name=\"showText\" condition=\"cardCount > 0\" checked=\"\">\n        <input type=\"range\" inline title=\"Card Count\" name=\"cardCount\" min=\"0\" max=\"6\" step=\"1\" value=\"4\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/conference28-1920.jpg\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#149dcc\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverse}\">\n            <div class=\"title__block\" mbr-class=\"{'col-lg-12' : cardCount < 1, 'col-lg-5' : cardCount > 0}\">\n                <h3 class=\"mbr-section-subtitle mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><b>家刺繡-<br>縫一幅圖景入門篇、進步篇</b></h3>\n                 <div class=\"divider\" mbr-if=\"showSubtitle\"></div>\n                <h2 class=\"mbr-section-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .mbr-section-btn\"><div>由府城刺繡宗師，人稱「阿泉師」的林玉泉所帶領的兩堂工坊，從刺繡的基本知識到完成一幅作品。</div><div><br></div><div>「光彩繡庄」位於台南市區永福路上，鄰近台南市的第一條街「民權路」，民權路聚集了眾多販賣紡織布綢的生意店家。藉由縫製人間符碼更甚於縫製給神仙的圖騰，一針一線的在眾神之都台南，堆疊出厚實的經驗。「縫製」象徵一種家常，除了加強在地串連力道，更讓「縫製」與「家」的含意更為融合。連續兩天的工坊課程，除了刺繡之外，更連結吳萬春香鋪的製香課，藉由兩種不同產業的碰撞，能帶給你怎樣的火花呢？</div><br><div>府城光彩映縷門：<a href=\"https://www.facebook.com/illuminate/\">https://www.facebook.com/illuminate/</a></div><div><br></div>• 這堂活動要說要教：繡布小故事、如何開始繡一塊布<br>（線材介紹、刺繡基本運用）<div><span style=\"color: inherit; font-size: 0.9rem;\">• 這堂課可以得到：刺繡基礎技法、一塊從自己設計的「家的圖景」到繡製完成的作品。</span><br></div><div><br></div><div>註：</div><div>1.可以繡自己設計的關於家的圖，或者如果沒有想法的話也可以繡我們準備的圖案喔！</div><div>2.若一起報名6/25家香味的課，則可以完成一顆家香味的繡香包唷！</div><br><br><div>• 課堂前創作須知：(如果您想繡自己設計的家的圖景，請留意這則須知)</div><div><span style=\"color: inherit; font-size: 0.9rem;\">1.創作尺寸 105  x 148mm（Ａ6 ）</span><br></div><div><span style=\"color: inherit; font-size: 0.9rem;\">2.於報名完成收到繳費通知後，開始構思自己的圖樣，於課程開始前先提供一個草稿\b並且與林玉泉師傅討論繡製的內容。</span><br></div><div><span style=\"color: inherit; font-size: 0.9rem;\">草稿尺寸：105  x 148 mm （Ａ6 ）</span><br></div><div>草稿內容：可以是字'房子‘人物’花卉等。</div><br><div>• 需要帶什麼東西或工具？</div><div><span style=\"color: inherit; font-size: 0.9rem;\">1.隨工作坊備有材料包，內容包含：綉花圈x1、針線一組、小剪刀</span><br></div><div><span style=\"color: inherit; font-size: 0.9rem;\">2.已經構思好的圖案以及自己習慣的工具！</span><br></div><div><br></div><div><div><br></div><div>• 參與對象：社區居民、一般民眾</div><div>• <span style=\"color: inherit; font-size: 0.9rem;\">活動材料無需自備，但若有自己習慣用的工具也可攜帶。</span></div><div>• 這堂課與吳萬春香行帶領的課為姊妹課，如兩堂課都報名，將可完成一個繡香包作品。</div><div>• 課程費用 :150元(含一份材料包)</div><br><div><br></div><div><br></div><div><br></div></div></h2>\n                     <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" mbr-buttons data-toolbar=\"-mbrBtnMove,-mbrBtnRemove,-mbrBtnAdd\" mbr-theme-style=\"display-4\"><a class=\"btn btn-secondary-outline\" href=\"page1.html#tabs01-3m\" data-app-placeholder=\"Type Text\" target=\"_blank\">線上報名，上完課了喔</a></div>\n            </div>\n                    \n             <div class=\"col-lg-1 d-none d-lg-block\" mbr-if=\"cardCount > 0\"></div>\n            <div class=\"col-lg-6\" mbr-if=\"cardCount > 0\">\n                <div class=\"wrap\">\n                    <div class=\"row\" mbr-list mbr-list-grow=\"cardCount\">\n                        <div class=\"col-md-6 card__wrap\">\n                            <p class=\"card__subtitle mbr-semibold mbr-fonts-style\" mbr-if=\"showCardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".card__subtitle\"></p>\n                            <div class=\"divider\" mbr-if=\"showCardSubtitle\"></div>\n                            <h4 class=\"card__title mbr-bold mbr-fonts-style\" mbr-if=\"showCardTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card__title\">地點</h4>\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">陳德聚堂<br>（ 700台南市中西區永福路二段152巷20號）<br><br></p>\n                        </div>\n                        <div class=\"col-md-6 card__wrap\">\n                            <p class=\"card__subtitle mbr-semibold mbr-fonts-style\" mbr-if=\"showCardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".card__subtitle\"></p>\n                            <div class=\"divider\" mbr-if=\"showCardSubtitle\"></div>\n                            <h4 class=\"card__title mbr-bold mbr-fonts-style\" mbr-if=\"showCardTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card__title\">日期時間</h4>\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">6月6 (六) - 6月7 (日)&nbsp;<br>14:00 pm – 17:00 pm</p>\n                        </div>\n                        <div class=\"col-md-6 card__wrap\">\n                            <p class=\"card__subtitle mbr-semibold mbr-fonts-style\" mbr-if=\"showCardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".card__subtitle\"></p>\n                            <div class=\"divider\" mbr-if=\"showCardSubtitle\"></div>\n                            <h4 class=\"card__title mbr-bold mbr-fonts-style\" mbr-if=\"showCardTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card__title\">參加方式</h4>\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">名額12人上限，請先線上報名登記。<br><br></p>\n                        </div>\n                        <div class=\"col-md-6 card__wrap\">\n                            <p class=\"card__subtitle mbr-semibold mbr-fonts-style\" mbr-if=\"showCardSubtitle\" mbr-theme-style=\"display-4\" data-app-selector=\".card__subtitle\"></p>\n                            <div class=\"divider\" mbr-if=\"showCardSubtitle\"></div>\n                            <h4 class=\"card__title mbr-bold mbr-fonts-style\" mbr-if=\"showCardTitle\" mbr-theme-style=\"display-7\" data-app-selector=\".card__title\">講師</h4>\n                            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">光彩繡莊 &nbsp;林玉泉</p>\n                        </div>\n                    </div>\n                </div>\n            \n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content7-12",
           "_isUserblock": true,
           "_sourceTheme": "conferencem4",
           "_cid": "rYCj6j8vbo",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_name": "countdown1",
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background": "url(@bg-value)"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#767676",
-              "text-align": "center"
-            },
-            ".line-wrap": {
-              "display": "inline-block",
-              "width": "100%"
-            },
-            ".line": {
-              "display": "inline-block",
-              "width": "80px",
-              "height": "4px",
-              "background-color": "@lineColor",
-              "margin-top": "0.5rem",
-              "margin-bottom": "1rem"
-            },
-            ".logo": {
-              "> *": {
-                "display": "inline-block",
-                "padding-left": "0",
-                "padding-right": "0"
-              },
-              "img": {
-                "width": "100%"
-              }
-            },
-            "@media (min-width: 768px)": {
-              ".col-md-3": {
-                "margin-bottom": "2rem"
-              }
-            },
-            ".number": {
-              "color": "@numbersColor",
-              "position": "relative",
-              "display": "flex",
-              "text-align": "center",
-              "border": "2px solid @borderColor",
-              "margin": "auto",
-              "border-radius": "100%",
-              "-webkit-justify-content": "center",
-              "justify-content": "center",
-              "-webkit-align-items": "center",
-              "align-items": "center",
-              "width": "120px",
-              "height": "120px",
-              "margin-bottom": "1rem",
-              "font-style": "normal",
-              "font-weight": "700",
-              "font-size": "35px",
-              "text-transform": "none",
-              "letter-spacing": "-1px",
-              "word-spacing": "0",
-              "line-height": "1.3"
-            },
-            ".period": {
-              "display": "block",
-              "padding-top": "2px",
-              "font-weight": "700"
-            },
-            ".dot": {
-              "display": "none"
-            },
-            ".countdown-cont": {
-              "max-width": "900px",
-              "margin": "0 auto",
-              ".countdown": {
-                "color": "@colorWords"
-              }
-            },
-            "@media (max-width: 550px)": {
-              ".number-wrap": {
-                "min-width": "auto"
-              },
-              ".number": {
-                "width": "auto",
-                "height": "auto",
-                "border": "none",
-                "white-space": "nowrap"
-              }
-            },
-            "@media (max-width: 440px)": {
-              ".number": {
-                "font-size": "40px"
-              }
-            },
-            "@media (max-width: 380px)": {
-              ".period": {
-                "font-size": "1rem"
-              }
-            },
-            "@media (max-width: 300px)": {
-              ".number": {
-                "font-size": "25px"
-              },
-              ".period": {
-                "font-size": "0.8rem"
-              }
-            },
-            ".mbr-section-title, .line-wrap": {
-              "text-align": "center"
-            },
-            ".mbr-section-title, .line-wrap, .logo": {
-              "color": "#f6c2c0"
-            }
-          },
-          "_customHTML": "<section class=\"countdown1\" group=\"Countdowns\" plugins=\"countdown\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n\n\n        <input type=\"text\" title=\"Countdown\" name=\"countdown\" value=\"2020/6/5\">\n        <input type=\"text\" inline title=\"Days\" name=\"daysCountdown\" value=\"天\">\n        <input type=\"text\" inline title=\"Hours\" name=\"hoursCountdown\" value=\"時\">\n        <input type=\"text\" inline title=\"Minutes\" name=\"minutesCountdown\" value=\"分\">\n        <input type=\"text\" inline title=\"Seconds\" name=\"secondsCountdown\" value=\"秒\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showSubtitle\">\n        <header>Colors</header>\n        <input type=\"color\" title=\"Color\" name=\"colorWords\" value=\"#767676\">\n        <input type=\"color\" title=\"Border\" name=\"borderColor\" value=\"#fff3f3\">\n        <input type=\"color\" title=\"Numbers\" name=\"numbersColor\" value=\"#f6c2c0\">\n        <input type=\"color\" title=\"Line\" name=\"lineColor\" value=\"#f25a80\" condition=\"showTitle\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"@PROJECT_PATH@/assets/images/background1-1.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#ffffff\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://www.youtube.com/watch?v=9morbKMwCu4\" title=\"Video\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n\n        <div class=\"logo align-center\" mbr-if=\"showLogo\">\n            <div class=\"col-lg-2 col-md-3 col-6 pb-3\">\n                <img src=\"@PROJECT_PATH@/assets/images/logo-1.png\" title alt>\n            </div>\n        </div>\n\n        <h2 class=\"mbr-section-title pb-3 mbr-bold align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .line-wrap, .logo\">報名倒數</h2>\n        <div class=\"line-wrap\" mbr-if=\"showTitle\">\n            <div class=\"line\"></div>\n        </div>\n\n\n    </div>\n    <div class=\"container countdown-cont align-center\">\n        <div title=\"{{daysCountdown}}\" class=\"daysCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n        <div title=\"{{hoursCountdown}}\" class=\"hoursCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n        <div title=\"{{minutesCountdown}}\" class=\"minutesCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n        <div title=\"{{secondsCountdown}}\" class=\"secondsCountdown col-xs-3 col-sm-3 col-md-3\"></div>\n        <div class=\"countdown pt-5 mt-2\" data-due-date=\"{{countdown}}\">\n        </div>\n        <h3 class=\"mbr-section-subtitle pt-4 align-center mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Lorem\n            ipsum dolor sit amet, consectetur adipiscing elit. Nullam in nisi non arcu rutrum molestie. Phasellus vel vehicula\n            enim. Nullam congue porttitor posuere.&nbsp;</h3>\n    </div>\n</section>",
-          "_anchor": "countdown1-2n",
-          "_isUserblock": true,
-          "_sourceTheme": "educationm4",
-          "_cid": "rZn1GveYJL",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -2427,6 +2301,208 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-link.active:focus": {
+              "outline": "none"
+            },
+            ".nav-tabs": {
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "border-bottom": "0px solid lightgray",
+              ".nav-item": {
+                "padding": ".0rem"
+              }
+            },
+            ".nav-link": {
+              "padding": ".4rem 0.8rem"
+            },
+            ".nav-tabs .nav-link": {
+              "color": "@tabsColor",
+              "font-style": "normal",
+              "font-weight": "500",
+              "transition": "all .5s",
+              "background": "transparent",
+              "border": "none",
+              "border-bottom": "2px solid @borderColor",
+              "&:hover": {
+                "cursor": "pointer",
+                "color": "@activeTabColor",
+                "border-bottom": "2px solid @activeTabColor"
+              },
+              "&.active": {
+                "font-weight": "500",
+                "color": "@activeTabColor",
+                "font-style": "normal",
+                "border-bottom": "2px solid @activeTabColor"
+              }
+            },
+            "P": {
+              "color": "#9c969b"
+            },
+            "H2": {
+              "color": "#57468b"
+            },
+            "@media (max-width: 576px)": {
+              ".nav-tabs": {
+                "flex-direction": "column",
+                "justify-content": "center"
+              },
+              ".mbr-text, .nav-link": {
+                "text-align": "center"
+              }
+            }
+          },
+          "_name": "tabs01",
+          "_customHTML": "<section class=\"tabs1\" group=\"Accordion & Toggles & Tabs\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-tabs\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Tabs Color\" name=\"tabsColor\" value=\"#3d626c\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#f6c2c0\">\n        <input type=\"color\" title=\"Active Tab Color\" name=\"activeTabColor\" value=\"#3d626c\">\n        <select title=\"Tabs Count\" name=\"bootstrapTabs\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"align-left pb-5 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">家刺繡之後記錄</h2>\n        <div class=\"row\">\n            <div class=\"col-12 col-md-12\">\n                <ul class=\"nav nav-tabs\" role=\"tablist\">\n                    <li mbr-buttons mbr-theme-style=\"display-5\" class=\"nav-item first\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs01-3m_tab0\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">本地</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-5\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 1\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs01-3m_tab1\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            學員</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-5\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 2\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs01-3m_tab2\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            Management</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-5\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 3\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs2-20_tab3\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            Attentiveness</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-5\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs2-20_tab4\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            Design</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-5\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 5\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs2-20_tab5\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            Architecture</a></li>\n                </ul>\n                <div class=\"tab-content\">\n                    <div id=\"tab1\" class=\"tab-pane in active\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text pt-4 mbr-fonts-style\" mbr-theme-style=\"display-4\">2020年6月6日及6月7日這兩天，由本案家廟跳點計劃精心策劃的「家刺繡：縫ㄧ幅圖景工作坊」圓滿落幕了。本次工作坊我們邀請了臺南民權路上「光彩繡庄」老闆，也就是林玉泉師傅擔任本次工作坊的授課導師。此外，林師傅的夫人也作為林師傅的助教出席本次活動。在這次的工作坊中，除了帶領大家體驗刺繡這項傳統技藝之外，更重要的事要讓大家知道，刺繡並非是一個枯燥又乏味的個人工作，刺繡本身的意涵也遠大於刺繡這項技法。<br>在傳統臺灣漢族社會中，刺繡是一項極為興盛的民間工藝，1918年連橫在《臺灣通史》〈工藝志‧刺繡條〉中便提到：「臺灣婦女不事紡織，而善刺繡。刺繡之巧，幾邁蘇杭。名媛相見，競誇女紅。衣裳裁紉，亦多自製。綠窗貧女，以此為生。故有家無儋石而纖纖十指，足供甕飧。」可見臺灣早期不論是富家千金或是小家碧玉都善於刺繡之工，只是名門淑媛和綠窗貧女纖指手做之娟秀成品所為目的不同，但是同樣地豐富了臺灣傳統刺繡工藝之興盛。不僅如此，從《臺灣通史》〈工藝志‧刺繡條〉我們也得到一項訊息，相對於現在不再興盛且僅存在於少數傳統藝師手中的這項技法，過去傳統社會中，刺繡是各個家庭中女性的必備技法，但隨著時代的變遷，這項技法逐漸的沒落。<br>過去的傳統生活中，在服飾上的表現，不像今日的多樣化，所倚靠的是家中女性手工上的展現。藉由多樣化的刺繡技法、各類型的圖示，為人類衣著生活增添了許多趣味。相對於現在的便利性，過去的刺繡與家庭生活緊密結合，如今的刺繡已逐漸與人們的衣著脫離，刺繡不再是家庭生活的一部分，目前我們大多數看見的刺繡作品都是來自繡莊，刺繡已不再是家庭生活的一部分。<br>在本次工作坊中，主要是以一個體驗活動，希望逐步地將過去刺繡與家庭生活重新串連。在這兩天的工作坊中，第一天，林師傅從基本的穿線開始，逐步教導學員去繃緊繡布及編織圖案。繃緊繡布主要是避免後續刺繡的過程中，繡布與線之間會皺在一起，之後繡出來的圖案會不完整。接著是編織圖案，該步驟主要是將棉花固定，並逐步將其塑形，最後沿著外框來繡出外型。第二天的活動則是延續著第一天的塑形，利用釘線繡的技法將金蔥包覆在塑形的棉花上。藉由老師的示範及個別指導，讓體驗該次活動的學員們能夠快上手。而在本次工作坊中，家庭的共同參與也讓本次活動所想要推廣的理念更為結合，也就是刺繡並不是一件枯燥且艱深的傳統技藝，刺繡最開始是與家庭結合，是家庭生活的一部分。</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab2\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 1\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text pt-4 mbr-fonts-style\" mbr-theme-style=\"display-4\">跟著阿泉師初體驗立體刺繡，同學們對於已高齡還能快速穿針引線的大師及其夫人感到佩服，持續動手做讓他們生活神采飛揚，林玉泉師傅說他越做越開心。<br>布如何繃緊到像打鼓聲，棉花如何鋪縫到具形體，金線一條條慢慢縫鋪，紅線壓金線，縫法像錯置磚塊牆，直到蓋住棉花。<br>花了6小時才縫好這g隻小小鳥(第一張圖是老師做)，脖長時間低頭著縫，酸哪。這技藝不簡單，要會設計，會畫圖，會捏塑，會線縫，要專注，阿泉師80歲還在做，真的不簡單。（學員 陳怜吟）</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab3\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 2\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text pt-4 mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                                    Nam ornare tortor quam, eget ultrices ex vulputate sit amet. Nulla ligula nisi,\n                                    tincidunt nec fringilla tincidunt, dignissim in mi. Nullam sed enim faucibus, dictum\n                                    sapien maximus, ultricies erat. Morbi et diam eu dui interdum egestas. Maecenas nisi\n                                    turpis, varius ut ipsum at, dapibus tempor lectus. Aliquam convallis lectus libero.\n                                    Nulla facilisi. Praesent nec pellentesque magna. Donec accumsan aliquam ultrices.\n                                    Mauris quis auctor massa, ac eleifend justo. Integer in ante pharetra lectus\n                                    eleifend posuere.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab4\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 3\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text pt-4 mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                                    Sed eleifend eleifend urna, mattis convallis nunc scelerisque eget. Mauris maximus\n                                    nisl tortor, et facilisis dui hendrerit in. Vestibulum sit amet mollis ligula.\n                                    Vivamus mattis efficitur efficitur. Donec sed dapibus dui. Proin a mollis neque.\n                                    Quisque efficitur, risus vitae sodales commodo, arcu dui cursus metus, nec fringilla\n                                    tortor dui non erat. Aliquam consequat purus sed interdum molestie. Nunc porta\n                                    bibendum arcu in consectetur.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab5\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 4\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text pt-4 mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                                    Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonum nibhie\n                                    euismod. Facilisis at vero eros et accumsan et iusto odio dignissim qui blandit\n                                    praesent luptatum zzril. Donec ultrices enim lectus, nec volutpat lorem scelerisque\n                                    eu. Cras vitae imperdiet arcu. Duis posuere nunc a nisl condimentum luctus elenit\n                                    augue duis dolore.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab6\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 5\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-3 mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                                    Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonum nibhie\n                                    euismod. Facilisis at vero eros et accumsan et iusto odio dignissim qui blandit\n                                    praesent luptatum zzril.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s2clwZ0Wtx",
+          "_anchor": "tabs01-3m",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "animType": "kenburns",
+            "theme": "boundary",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-220-1600x1080.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/img-220-2000x1123.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/img-220-85x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-238-1600x1080.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/img-235-2000x1333.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/img-235-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": true,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/sam-3940-830x360.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/sam-3939-2000x1126.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/sam-3939-85x48.png",
+                "title": "title 3",
+                "text": "text 3",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-7280-1600x1080.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/img-7280-2000x1500.jpeg",
+                "tooltip": "@PROJECT_PATH@/assets/images/img-7280-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/sam-3999-2000x1126.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/img-7280-2000x1500.jpeg",
+                "tooltip": "@PROJECT_PATH@/assets/images/img-7280-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/sam-3984-2000x1126.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/img-235-2000x1333.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/img-235-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/sam-3980-2000x1126.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/img-235-2000x1333.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/img-235-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-110-2000x1333.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/img-220-2000x1123.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/img-220-85x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-166-2000x1333.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/img-235-2000x1333.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/img-235-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false,
+                "alt": ""
+              }
+            ],
+            "fullScreen": true,
+            "showCaptions": false,
+            "hideControls": false,
+            "responsive": "1",
+            "paddingTop": 0,
+            "paddingBottom": "4",
+            "captionsEffect": "slide",
+            "showBullets": false,
+            "bgColor": "#ffffff",
+            "timeout": 2,
+            "duration": 2,
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "830x360",
+            "width": "1600",
+            "height": "1080"
+          },
+          "articleLayout": false,
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_anchor": "wowslider-3o"
         }
       ]
     },
