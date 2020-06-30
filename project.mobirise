@@ -17,7 +17,7 @@
         "display2Font": "Gentium Book Basic",
         "display2Size": 3.2,
         "display5Font": "Gentium Basic",
-        "display5Size": "1.5",
+        "display5Size": "1.4",
         "display7Font": "Open Sans",
         "display7Size": 1.2,
         "display4Font": "Open Sans",
@@ -80,7 +80,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 141,
+    "uniqCompNum": 143,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png"
   },
@@ -1319,7 +1319,7 @@
             "overlayOpacity": 0.6
           },
           "title": "path.2020-Instagram&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"#\">Show more</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary display-4\" href=\"#\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">Show more</a>",
           "display2": "display-7",
           "display4": "display-4",
           "alias": "instagram-feed",
