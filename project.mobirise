@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page3.html",
+    "currentPage": "page2.html",
     "theme": {
       "name": "personam4",
       "title": "PersonaM4",
@@ -80,7 +80,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 153,
+    "uniqCompNum": 156,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png"
   },
@@ -3802,6 +3802,210 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-link.active:focus": {
+              "outline": "none"
+            },
+            ".nav-tabs": {
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "border-bottom": "0px solid lightgray",
+              ".nav-item": {
+                "padding": ".0rem"
+              }
+            },
+            ".nav-link": {
+              "padding": ".4rem 0.8rem"
+            },
+            ".nav-tabs .nav-link": {
+              "color": "@tabsColor",
+              "font-style": "normal",
+              "font-weight": "500",
+              "transition": "all .5s",
+              "background": "transparent",
+              "border": "none",
+              "border-bottom": "2px solid @borderColor",
+              "&:hover": {
+                "cursor": "pointer",
+                "color": "@activeTabColor",
+                "border-bottom": "2px solid @activeTabColor"
+              },
+              "&.active": {
+                "font-weight": "500",
+                "color": "@activeTabColor",
+                "font-style": "normal",
+                "border-bottom": "2px solid @activeTabColor"
+              }
+            },
+            "P": {
+              "color": "#9c969b"
+            },
+            "H2": {
+              "color": "#57468b"
+            },
+            "@media (max-width: 576px)": {
+              ".nav-tabs": {
+                "flex-direction": "column",
+                "justify-content": "center"
+              },
+              ".mbr-text, .nav-link": {
+                "text-align": "center"
+              }
+            }
+          },
+          "_name": "tabs01",
+          "_customHTML": "<section class=\"tabs1\" group=\"Accordion & Toggles & Tabs\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-tabs\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Tabs Color\" name=\"tabsColor\" value=\"#3d626c\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#f6c2c0\">\n        <input type=\"color\" title=\"Active Tab Color\" name=\"activeTabColor\" value=\"#3d626c\">\n        <select title=\"Tabs Count\" name=\"bootstrapTabs\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"align-left pb-5 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">雙講談「這是咱台的模樣」之後</h2>\n        <div class=\"row\">\n            <div class=\"col-12 col-md-12\">\n                <ul class=\"nav nav-tabs\" role=\"tablist\">\n                    <li mbr-buttons mbr-theme-style=\"display-5\" class=\"nav-item first\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs01-4b_tab0\" data-app-placeholder=\"Type Text\" aria-selected=\"false\">第一場0613台南起始</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-5\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 1\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs01-4b_tab1\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">第二場0619台南生活之味</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-5\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 2\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs01-3m_tab2\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            Management</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-5\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 3\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs2-20_tab3\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            Attentiveness</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-5\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs2-20_tab4\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            Design</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-5\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 5\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs2-20_tab5\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            Architecture</a></li>\n                </ul>\n                <div class=\"tab-content\">\n                    <div id=\"tab1\" class=\"tab-pane in active\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text pt-4 mbr-fonts-style\" mbr-theme-style=\"display-4\">針對府城地區發展所舉辦的演講，從荷治開始，在老師及建築師們的帶領下，看向未來府城地區的發展。首先是黃老師的演講「荷蘭時期大台南城的市街與模樣」，主要是針對荷治時期大台南城市街的發展，將過去台南府城的規劃情況，與同時期國外的案例交互對照。此外更透過詳細的史料及歷史地圖，將過去台南府城的發展及赤崁樓周遭的規劃情況，以圖示的方式展示給大家。在黃老師之後，緊接著是來到明清時期，也就是顏老師的演講「明清時期台南城生活模樣概觀」。最後則是由侯建築師的演講「赤嵌署光計畫的台南模樣的未來觀」，在演講過程，除了讓參與講談的人們了解赤崁樓未來的發展，更是透過演講讓人們理解未來赤崁樓的設計方向。雖然目前赤崁樓的興建過程，面對許多的困難，但一個城市的發展，從國外許多的案例來看，也都是從都市核心開始，而赤崁樓便是過去台南府城發展的中心。透過建築師的演講，對未來赤崁樓的發展也有個明確的看法。<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab2\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 1\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text pt-4 mbr-fonts-style\" mbr-theme-style=\"display-4\">以吃食味覺喚醒對家的認可與記憶，我必須回家，因為我朝思暮想這個食物的味道（母親的料理）<br>台南的模樣就是<br>台南的時間觀<br>在台南的生活態度（包涵工作時間的安排）<br>回家的路徑構成城市的生活模樣<br>在台南工作與生活時間的配比可能構成產品，以吃為例<br>120元的烤雞腿，老闆一小時的準備以作品般的心情來對呈現，這是哪一種台南的模樣？<br>打白金的態度雕琢一顆30元粽子，這些台南人做的是餐飲而非服務<br>台南人的時間刻度分佈的不一樣，時間節奏不一樣，形成了一種模樣<br>從宜蘭到台南最有土地感的城市，所以土地感也是一種台南的樣子？<br>但是遷移的路徑構成了找歸屬的路徑。當我回到家城市漫遊的旅程就停止，但在一個循環之後又會再度開啟漫遊的旅程。<br>路徑的重複形成了堆疊，堆疊壓實成歷史<br>歷史餅歷史並非過去，反而是往前走的方法<br><br>台南的模樣就是緩慢<br>緩慢就是時間的概念<br>時間就是一種路徑<br>路徑就家的延伸，路徑也同時泛指其他的延伸<br>宜蘭像水、台南像火，就是慢？<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab3\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 2\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text pt-4 mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                                    Nam ornare tortor quam, eget ultrices ex vulputate sit amet. Nulla ligula nisi,\n                                    tincidunt nec fringilla tincidunt, dignissim in mi. Nullam sed enim faucibus, dictum\n                                    sapien maximus, ultricies erat. Morbi et diam eu dui interdum egestas. Maecenas nisi\n                                    turpis, varius ut ipsum at, dapibus tempor lectus. Aliquam convallis lectus libero.\n                                    Nulla facilisi. Praesent nec pellentesque magna. Donec accumsan aliquam ultrices.\n                                    Mauris quis auctor massa, ac eleifend justo. Integer in ante pharetra lectus\n                                    eleifend posuere.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab4\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 3\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text pt-4 mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                                    Sed eleifend eleifend urna, mattis convallis nunc scelerisque eget. Mauris maximus\n                                    nisl tortor, et facilisis dui hendrerit in. Vestibulum sit amet mollis ligula.\n                                    Vivamus mattis efficitur efficitur. Donec sed dapibus dui. Proin a mollis neque.\n                                    Quisque efficitur, risus vitae sodales commodo, arcu dui cursus metus, nec fringilla\n                                    tortor dui non erat. Aliquam consequat purus sed interdum molestie. Nunc porta\n                                    bibendum arcu in consectetur.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab5\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 4\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text pt-4 mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                                    Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonum nibhie\n                                    euismod. Facilisis at vero eros et accumsan et iusto odio dignissim qui blandit\n                                    praesent luptatum zzril. Donec ultrices enim lectus, nec volutpat lorem scelerisque\n                                    eu. Cras vitae imperdiet arcu. Duis posuere nunc a nisl condimentum luctus elenit\n                                    augue duis dolore.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab6\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 5\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-3 mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                                    Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonum nibhie\n                                    euismod. Facilisis at vero eros et accumsan et iusto odio dignissim qui blandit\n                                    praesent luptatum zzril.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "tabs01-4b",
+          "_isUserblock": true,
+          "_sourceTheme": "personam4",
+          "_cid": "s3RUPWUKog",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "animType": "kenburns",
+            "theme": "boundary",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/10-1600x1080.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/10-2000x1333.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/10-85x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/14-1600x1080.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/14-2000x1333.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/14-85x48.png",
+                "title": "title 3",
+                "text": "text 3",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/11-1-1600x1080.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/11-2000x1333.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/11-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/15-1600x1080.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/15-2000x1333.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/15-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/30-1600x1080.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/30-2000x1333.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/30-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/24-1-1600x1080.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/24-1-2000x1333.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/24-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/sam-71-1600x1080.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/sam-71-2000x1126.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/sam-71-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-4110-1600x1080.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/img-4109-2000x1333.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/img-4110-85x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/21-1600x1080.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/21-2000x1333.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/21-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": true,
+                "alt": ""
+              }
+            ],
+            "fullScreen": true,
+            "showCaptions": false,
+            "hideControls": false,
+            "responsive": "1",
+            "paddingTop": 0,
+            "paddingBottom": "4",
+            "captionsEffect": "slide",
+            "showBullets": false,
+            "bgColor": "#ffffff",
+            "timeout": 2,
+            "duration": 2,
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "830x360",
+            "width": "1600",
+            "height": "1080"
+          },
+          "articleLayout": false,
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_anchor": "wowslider-4a"
         }
       ]
     },
