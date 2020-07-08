@@ -3549,7 +3549,7 @@ section.lazy-placeholder:after {
   padding: .4rem 0.8rem;
 }
 .cid-s4aGksLNr9 .nav-tabs .nav-link {
-  color: #3d626c;
+  color: #cccccc;
   font-style: normal;
   font-weight: 500;
   transition: all .5s;
@@ -3581,62 +3581,6 @@ section.lazy-placeholder:after {
   }
   .cid-s4aGksLNr9 .mbr-text,
   .cid-s4aGksLNr9 .nav-link {
-    text-align: center;
-  }
-}
-.cid-s4aIaXLVNb {
-  padding-top: 75px;
-  padding-bottom: 75px;
-  background-color: #ffffff;
-}
-.cid-s4aIaXLVNb .nav-tabs .nav-item.open .nav-link:focus,
-.cid-s4aIaXLVNb .nav-tabs .nav-link.active:focus {
-  outline: none;
-}
-.cid-s4aIaXLVNb .nav-tabs {
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  border-bottom: 0px solid lightgray;
-}
-.cid-s4aIaXLVNb .nav-tabs .nav-item {
-  padding: .0rem;
-}
-.cid-s4aIaXLVNb .nav-link {
-  padding: .4rem 0.8rem;
-}
-.cid-s4aIaXLVNb .nav-tabs .nav-link {
-  color: #3d626c;
-  font-style: normal;
-  font-weight: 500;
-  transition: all .5s;
-  background: transparent;
-  border: none;
-  border-bottom: 2px solid #f6c2c0;
-}
-.cid-s4aIaXLVNb .nav-tabs .nav-link:hover {
-  cursor: pointer;
-  color: #3d626c;
-  border-bottom: 2px solid #3d626c;
-}
-.cid-s4aIaXLVNb .nav-tabs .nav-link.active {
-  font-weight: 500;
-  color: #3d626c;
-  font-style: normal;
-  border-bottom: 2px solid #3d626c;
-}
-.cid-s4aIaXLVNb P {
-  color: #9c969b;
-}
-.cid-s4aIaXLVNb H2 {
-  color: #57468b;
-}
-@media (max-width: 576px) {
-  .cid-s4aIaXLVNb .nav-tabs {
-    flex-direction: column;
-    justify-content: center;
-  }
-  .cid-s4aIaXLVNb .mbr-text,
-  .cid-s4aIaXLVNb .nav-link {
     text-align: center;
   }
 }
