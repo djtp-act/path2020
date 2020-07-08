@@ -80,7 +80,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 157,
+    "uniqCompNum": 158,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png"
   },
@@ -3870,6 +3870,78 @@
           "_isUserblock": true,
           "_sourceTheme": "personam4",
           "_cid": "s4aGksLNr9",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".nav-tabs .nav-item.open .nav-link:focus, .nav-tabs .nav-link.active:focus": {
+              "outline": "none"
+            },
+            ".nav-tabs": {
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "border-bottom": "0px solid lightgray",
+              ".nav-item": {
+                "padding": ".0rem"
+              }
+            },
+            ".nav-link": {
+              "padding": ".4rem 0.8rem"
+            },
+            ".nav-tabs .nav-link": {
+              "color": "@tabsColor",
+              "font-style": "normal",
+              "font-weight": "500",
+              "transition": "all .5s",
+              "background": "transparent",
+              "border": "none",
+              "border-bottom": "2px solid @borderColor",
+              "&:hover": {
+                "cursor": "pointer",
+                "color": "@activeTabColor",
+                "border-bottom": "2px solid @activeTabColor"
+              },
+              "&.active": {
+                "font-weight": "500",
+                "color": "@activeTabColor",
+                "font-style": "normal",
+                "border-bottom": "2px solid @activeTabColor"
+              }
+            },
+            "P": {
+              "color": "#9c969b"
+            },
+            "H2": {
+              "color": "#57468b"
+            },
+            "@media (max-width: 576px)": {
+              ".nav-tabs": {
+                "flex-direction": "column",
+                "justify-content": "center"
+              },
+              ".mbr-text, .nav-link": {
+                "text-align": "center"
+              }
+            }
+          },
+          "_name": "tabs01",
+          "_customHTML": "<section class=\"tabs1\" group=\"Accordion &amp; Toggles &amp; Tabs\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-tabs\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"color\" title=\"Tabs Color\" name=\"tabsColor\" value=\"#3d626c\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#f6c2c0\">\n        <input type=\"color\" title=\"Active Tab Color\" name=\"activeTabColor\" value=\"#3d626c\">\n        <select title=\"Tabs Count\" name=\"bootstrapTabs\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected=\"\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"align-left pb-5 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">家刺繡之後記錄</h2>\n        <div class=\"row\">\n            <div class=\"col-12 col-md-12\">\n                <ul class=\"nav nav-tabs\" role=\"tablist\">\n                    <li mbr-buttons=\"\" mbr-theme-style=\"display-5\" class=\"nav-item first\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs01-3m_tab0\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">本地</a></li>\n                    <li mbr-buttons=\"\" mbr-theme-style=\"display-5\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 1\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs01-3m_tab1\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            學員</a></li>\n                    <li mbr-buttons=\"\" mbr-theme-style=\"display-5\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 2\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs01-3m_tab2\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            Management</a></li>\n                    <li mbr-buttons=\"\" mbr-theme-style=\"display-5\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 3\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs2-20_tab3\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            Attentiveness</a></li>\n                    <li mbr-buttons=\"\" mbr-theme-style=\"display-5\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs2-20_tab4\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            Design</a></li>\n                    <li mbr-buttons=\"\" mbr-theme-style=\"display-5\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 5\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrBtnColor,-mbrLink,-mbrBtnRemove\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" href=\"#tabs2-20_tab5\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            Architecture</a></li>\n                </ul>\n                <div class=\"tab-content\">\n                    <div id=\"tab1\" class=\"tab-pane in active\" role=\"tabpanel\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text pt-4 mbr-fonts-style\" mbr-theme-style=\"display-4\">2020年6月6日及6月7日這兩天，由本案家廟跳點計劃精心策劃的「家刺繡：縫ㄧ幅圖景工作坊」圓滿落幕了。本次工作坊我們邀請了臺南民權路上「光彩繡庄」老闆，也就是林玉泉師傅擔任本次工作坊的授課導師。此外，林師傅的夫人也作為林師傅的助教出席本次活動。在這次的工作坊中，除了帶領大家體驗刺繡這項傳統技藝之外，更重要的事要讓大家知道，刺繡並非是一個枯燥又乏味的個人工作，刺繡本身的意涵也遠大於刺繡這項技法。<br>在傳統臺灣漢族社會中，刺繡是一項極為興盛的民間工藝，1918年連橫在《臺灣通史》〈工藝志‧刺繡條〉中便提到：「臺灣婦女不事紡織，而善刺繡。刺繡之巧，幾邁蘇杭。名媛相見，競誇女紅。衣裳裁紉，亦多自製。綠窗貧女，以此為生。故有家無儋石而纖纖十指，足供甕飧。」可見臺灣早期不論是富家千金或是小家碧玉都善於刺繡之工，只是名門淑媛和綠窗貧女纖指手做之娟秀成品所為目的不同，但是同樣地豐富了臺灣傳統刺繡工藝之興盛。不僅如此，從《臺灣通史》〈工藝志‧刺繡條〉我們也得到一項訊息，相對於現在不再興盛且僅存在於少數傳統藝師手中的這項技法，過去傳統社會中，刺繡是各個家庭中女性的必備技法，但隨著時代的變遷，這項技法逐漸的沒落。<br>過去的傳統生活中，在服飾上的表現，不像今日的多樣化，所倚靠的是家中女性手工上的展現。藉由多樣化的刺繡技法、各類型的圖示，為人類衣著生活增添了許多趣味。相對於現在的便利性，過去的刺繡與家庭生活緊密結合，如今的刺繡已逐漸與人們的衣著脫離，大多數看見的刺繡作品都是來自繡莊，刺繡不再是家庭生活的一部分。<br>在本次工作坊中，主要是以一個體驗活動，希望逐步地將過去刺繡與家庭生活重新串連。在這兩天的工作坊中，第一天，林師傅從基本的穿線開始，逐步教導學員去繃緊繡布及編織圖案。繃緊繡布主要是避免後續刺繡的過程中，繡布與線之間會皺在一起，之後繡出來的圖案會不完整。接著是編織圖案，該步驟主要是將棉花固定，並逐步將其塑形，最後沿著外框來繡出外型。第二天的活動則是延續著第一天的塑形，利用釘線繡的技法將金蔥包覆在塑形的棉花上。藉由老師的示範及個別指導，讓體驗該次活動的學員們能夠快上手。而在本次工作坊中，家庭的共同參與也讓本次活動所想要推廣的理念更為結合，也就是刺繡並不是一件枯燥且艱深的傳統技藝，刺繡最開始是與家庭結合，是家庭生活的一部分。</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab2\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 1\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text pt-4 mbr-fonts-style\" mbr-theme-style=\"display-4\">跟著阿泉師初體驗立體刺繡，同學們對於已高齡還能快速穿針引線的大師及其夫人感到佩服，持續動手做讓他們生活神采飛揚，林玉泉師傅說他越做越開心。<br>布如何繃緊到像打鼓聲，棉花如何鋪縫到具形體，金線一條條慢慢縫鋪，紅線壓金線，縫法像錯置磚塊牆，直到蓋住棉花。<br>花了6小時才縫好這g隻小小鳥(第一張圖是老師做)，脖長時間低頭著縫，酸哪。這技藝不簡單，要會設計，會畫圖，會捏塑，會線縫，要專注，阿泉師80歲還在做，真的不簡單。（學員 陳怜吟）</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab3\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 2\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text pt-4 mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                                    Nam ornare tortor quam, eget ultrices ex vulputate sit amet. Nulla ligula nisi,\n                                    tincidunt nec fringilla tincidunt, dignissim in mi. Nullam sed enim faucibus, dictum\n                                    sapien maximus, ultricies erat. Morbi et diam eu dui interdum egestas. Maecenas nisi\n                                    turpis, varius ut ipsum at, dapibus tempor lectus. Aliquam convallis lectus libero.\n                                    Nulla facilisi. Praesent nec pellentesque magna. Donec accumsan aliquam ultrices.\n                                    Mauris quis auctor massa, ac eleifend justo. Integer in ante pharetra lectus\n                                    eleifend posuere.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab4\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 3\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text pt-4 mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                                    Sed eleifend eleifend urna, mattis convallis nunc scelerisque eget. Mauris maximus\n                                    nisl tortor, et facilisis dui hendrerit in. Vestibulum sit amet mollis ligula.\n                                    Vivamus mattis efficitur efficitur. Donec sed dapibus dui. Proin a mollis neque.\n                                    Quisque efficitur, risus vitae sodales commodo, arcu dui cursus metus, nec fringilla\n                                    tortor dui non erat. Aliquam consequat purus sed interdum molestie. Nunc porta\n                                    bibendum arcu in consectetur.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab5\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 4\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text pt-4 mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                                    Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonum nibhie\n                                    euismod. Facilisis at vero eros et accumsan et iusto odio dignissim qui blandit\n                                    praesent luptatum zzril. Donec ultrices enim lectus, nec volutpat lorem scelerisque\n                                    eu. Cras vitae imperdiet arcu. Duis posuere nunc a nisl condimentum luctus elenit\n                                    augue duis dolore.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n                    <div id=\"tab6\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 5\">\n                        <div class=\"row\">\n                            <div class=\"col-md-12\">\n                                <p class=\"mbr-text py-3 mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                                    Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam nonum nibhie\n                                    euismod. Facilisis at vero eros et accumsan et iusto odio dignissim qui blandit\n                                    praesent luptatum zzril.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "tabs01-4d",
+          "_isUserblock": true,
+          "_sourceTheme": "personam4",
+          "_cid": "s4aIaXLVNb",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
