@@ -1386,7 +1386,14 @@ section.lazy-placeholder:after {
 .cid-s5FE1EllLU {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #f7ed4a;
+  background-color: #eaae41;
+}
+.cid-s5FE1EllLU H1 {
+  color: #ffffff;
+}
+.cid-s5FE1EllLU .mbr-text,
+.cid-s5FE1EllLU .mbr-section-btn {
+  color: #ffffff;
 }
 .cid-rY3DnNKwbG {
   padding-top: 5rem;
