@@ -80,7 +80,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 199,
+    "uniqCompNum": 200,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png"
   },
@@ -1526,7 +1526,7 @@
             "account": "path.2020",
             "showTitle": true,
             "layoutGridRadio": true,
-            "imagesPerRowGrid": "3",
+            "imagesPerRowGrid": 4,
             "rows": 2,
             "showMoreButton": true,
             "layoutSliderRadio": false,
@@ -1545,14 +1545,19 @@
           },
           "title": "path.2020-Instagram&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary display-4\" href=\"#\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">看更多＋追蹤</a>",
-          "display2": "display-7",
+          "display2": "display-5",
           "display4": "display-4",
           "alias": "instagram-feed",
           "_tags": [
             "Extension"
           ],
           "_name": "instagram-feed-block",
-          "_anchor": "instagram-feed-block-2d"
+          "_anchor": "instagram-feed-block-5j",
+          "_styles": {
+            ".inst__title": {
+              "color": "#191f23"
+            }
+          }
         },
         {
           "alias": false,
