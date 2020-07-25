@@ -739,6 +739,49 @@ section.lazy-placeholder:after {
 .cid-rXXl8oTrQx .typed-text {
   color: #f7ed4a;
 }
+.cid-s5JTd0cdDT {
+  padding-top: 45px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-s5JTd0cdDT h3 {
+  text-align: center;
+  font-weight: 300;
+}
+.cid-s5JTd0cdDT .wrap {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+.cid-s5JTd0cdDT .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-s5JTd0cdDT .card {
+  -webkit-flex-basis: 100%;
+  flex-basis: 100%;
+  word-wrap: break-word;
+}
+.cid-s5JTd0cdDT ellipse {
+  stroke: rgba(206, 206, 206, 0.4);
+}
+.cid-s5JTd0cdDT path {
+  stroke: #7af790;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-s5JTd0cdDT .card {
+    -webkit-flex-basis: 33%;
+    flex-basis: 33%;
+  }
+}
+.cid-s5JTd0cdDT .mbr-section-title {
+  color: #232323;
+}
+.cid-s5JTd0cdDT P {
+  color: #7af790;
+}
+.cid-s5JTd0cdDT H4 {
+  color: #7af790;
+}
 .cid-rZWoFjr1DA {
   background-image: url("../../../assets/images/89919-ok-1-1896x1109.jpg");
 }
