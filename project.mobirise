@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page8.html",
+    "currentPage": "page7.html",
     "theme": {
       "name": "personam4",
       "title": "PersonaM4",
@@ -80,7 +80,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 215,
+    "uniqCompNum": 217,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png"
   },
@@ -7583,165 +7583,77 @@
             "theme": "boundary",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/img-5680-1600x1080.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-5369-1600x1080.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
-                "src": "@PROJECT_PATH@/assets/images/img-5680-2000x1333.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/img-5680-85x48.png",
+                "src": "@PROJECT_PATH@/assets/images/img-5369-2000x1333.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/img-5369-85x48.png",
                 "title": "title 1",
                 "text": "text 1",
                 "active": false,
                 "alt": ""
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-5540-1600x1080.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-5438-1600x1080.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
-                "src": "@PROJECT_PATH@/assets/images/img-5540-2000x1333.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/img-5540-85x48.png",
+                "src": "@PROJECT_PATH@/assets/images/img-5438-2000x1335.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/img-5438-85x48.png",
                 "title": "title 2",
                 "text": "text 2",
                 "active": true,
                 "alt": ""
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-5542-1600x1080.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-5451-1600x1080.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
-                "src": "@PROJECT_PATH@/assets/images/img-5542-2000x1333.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/img-5542-85x48.png",
+                "src": "@PROJECT_PATH@/assets/images/img-5451-2000x1335.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/img-5451-85x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": false,
                 "alt": ""
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-5546-1600x1080.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-5531-1600x1080.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
-                "src": "@PROJECT_PATH@/assets/images/img-5546-2000x1333.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/img-5546-85x48.png",
+                "src": "@PROJECT_PATH@/assets/images/img-5531-2000x1333.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/img-5531-85x48.png",
                 "title": "title 2",
                 "text": "text 2",
                 "active": false,
                 "alt": ""
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-5581-1600x1080.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-5499-1600x1080.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
-                "src": "@PROJECT_PATH@/assets/images/img-5581-2000x1333.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/img-5581-85x48.png",
+                "src": "@PROJECT_PATH@/assets/images/img-5499-2000x1333.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/img-5499-85x48.png",
                 "title": "title 2",
                 "text": "text 2",
                 "active": false,
                 "alt": ""
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-5588-1600x1080.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-5474-1600x1080.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
-                "src": "@PROJECT_PATH@/assets/images/img-5588-2000x1333.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/img-5588-85x48.png",
+                "src": "@PROJECT_PATH@/assets/images/img-5474-2000x1335.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/img-5474-85x48.png",
                 "title": "title 2",
                 "text": "text 2",
                 "active": false,
                 "alt": ""
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/img-5590-1600x1080.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-5457-1600x1080.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
-                "src": "@PROJECT_PATH@/assets/images/img-5590-2000x1333.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/img-5590-85x48.png",
-                "title": "title 2",
-                "text": "text 2",
-                "active": false,
-                "alt": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-5599-2000x1333.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/img-5540-2000x1333.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/img-5540-85x48.png",
-                "title": "title 2",
-                "text": "text 2",
-                "active": false,
-                "alt": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-5614-2000x1333.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/img-5540-2000x1333.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/img-5540-85x48.png",
-                "title": "title 2",
-                "text": "text 2",
-                "active": false,
-                "alt": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-5616-2000x1333.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/img-5540-2000x1333.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/img-5540-85x48.png",
-                "title": "title 2",
-                "text": "text 2",
-                "active": false,
-                "alt": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-5625-2000x1333.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/img-5540-2000x1333.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/img-5540-85x48.png",
-                "title": "title 2",
-                "text": "text 2",
-                "active": false,
-                "alt": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-5629-2000x1333.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/img-5540-2000x1333.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/img-5540-85x48.png",
-                "title": "title 2",
-                "text": "text 2",
-                "active": false,
-                "alt": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-5664-2000x1333.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/img-5540-2000x1333.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/img-5540-85x48.png",
-                "title": "title 2",
-                "text": "text 2",
-                "active": false,
-                "alt": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-5667-2000x1333.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/img-5540-2000x1333.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/img-5540-85x48.png",
-                "title": "title 2",
-                "text": "text 2",
-                "active": false,
-                "alt": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/sam-1057-2000x1126.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/img-5540-2000x1333.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/img-5540-85x48.png",
+                "src": "@PROJECT_PATH@/assets/images/img-5456-2000x1335.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/img-5456-85x48.png",
                 "title": "title 2",
                 "text": "text 2",
                 "active": false,
@@ -8735,7 +8647,7 @@
             "Extension"
           ],
           "_name": "wowslider",
-          "_anchor": "wowslider-5x"
+          "_anchor": "wowslider-60"
         }
       ]
     },
